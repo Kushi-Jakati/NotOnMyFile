@@ -1,5 +1,6 @@
 # NotOnMyFile
 
+**Reminder that I need to actually upload this project...
 A common method in forensics is checking files for the correct file signature. Attackers may disguise their files so they cannot be opened (i.e., viewed as a corrupted file) by renaming the file with a different file extension. This NetBeans application takes a file as input and correctly detects whether or not the file's MIME type matches up with the file's presented extension. If there is a contradiction, the program will output a "Not on My File!" with the application interface turning red and a textbox displaying what the file's type is (versus what it is presented as). 
 
 This was a rudimentary project in high school, so there are some flaws. Namely, this program cannot handle big files (which causes a memory overflow--a security issue) and takes a long time to recognize large files it can process.
